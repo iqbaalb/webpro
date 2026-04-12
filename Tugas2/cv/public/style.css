@@ -1,0 +1,193 @@
+body {
+    font-family: 'Segoe UI';
+    margin: 0;
+    background: #f4f6f9;
+    transition: 0.3s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(8px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-radius: 5px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(8, 8, 8);
+}
+
+nav a {
+    margin: 10px;
+    cursor: pointer;
+    color: #080808;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: 0.3s;
+    position: relative;
+}
+
+nav a:hover {
+    background: #00adb5;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background: #ffd369;
+    transition: 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #00adb5, #393e46);
+    border-radius: 20px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero span {
+    color: #ffd369;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 14px 28px;
+    border: none;
+    background: #ffd369;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    background: #ffc933;
+}
+
+#content {
+    padding: 40px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.4s;
+    border: 5px solid #00adb5;
+}
+
+.project-card img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.project-card:hover {
+    transform: translateY(-12px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.skill {
+    margin: 15px 0;
+}
+
+.bar {
+    background: #ddd;
+    height: 8px;
+    border-radius: 10px;
+}
+
+.fill {
+    height: 8px;
+    background: #00adb5;
+    border-radius: 10px;
+}
+
+.dark {
+    background: #111;
+    color: white;
+}
+
+.dark .project-card {
+    background: #222;
+}
+
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.hero-photo img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 40px;
+    border: 5px solid white;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+.hero-desc {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    line-height: 1.6;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.btn {
+    background: #ffd369;
+    padding: 14px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ffc933;
+    transform: scale(1.05);
+}
