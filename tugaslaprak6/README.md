@@ -5,7 +5,7 @@
 
 ## LARAVEL AJAX APP
 
-<img src="assets/logo.jpeg" alt="logo" width="300">
+<img src="tugaslaprak6/logo.jpeg" alt="logo" width="300">
 
 ### Disusun Oleh
 **Iqbal Bawani**  
@@ -420,5 +420,7 @@ http://127.0.0.1:8000
 
 1. Tampilan Web
 
-![](assets/tampilanweb.jpeg)
+![](tugaslaprak6/sshome.PNG)
+![](tugaslaprak6/sslist.PNG)
 
+<img src="tugaslaprak6/sslist.PNG" >
