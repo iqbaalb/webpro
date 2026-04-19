@@ -1,0 +1,32 @@
+[
+    {
+        "nama": "Iqbal Bawani",
+        "nim": "2311102130",
+        "kelas": "A",
+        "prodi": "Teknik Informatika"
+    },
+    {
+        "nama": "Bawani Iqbal",
+        "nim": "2024102090",
+        "kelas": "B",
+        "prodi": "Sistem Informasi"
+    },
+    {
+        "nama": "Jokowi",
+        "nim": "2024101000",
+        "kelas": "A",
+        "prodi": "Teknik Kehutanan"
+    },
+    {
+        "nama": "Ronaldo",
+        "nim": "2024101004",
+        "kelas": "C",
+        "prodi": "Teknik Informatika"
+    },
+    {
+        "nama": "Elon Musk",
+        "nim": "2024101005",
+        "kelas": "Z",
+        "prodi": "Matematika"
+    }
+]
