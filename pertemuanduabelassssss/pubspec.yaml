@@ -1,0 +1,27 @@
+name: tugas_kamera_notifikasi
+description: Tugas Praktikum Iqbal bawani - Notifikasi & API Perangkat Keras (Kamera, Galeri, Notifikasi Lokal)
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Untuk mengambil foto dari kamera & memilih foto dari galeri
+  image_picker: ^1.1.2
+
+  # Untuk menampilkan notifikasi lokal
+  flutter_local_notifications: ^17.2.3
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
